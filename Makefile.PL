@@ -15,6 +15,7 @@ WriteMakefile(
     PREREQ_PM           => {
 
         # prereqs
+        'Data::Pageset'         => '0',
         'Labyrinth'             => '5.20',
 
         # build/test prereqs
