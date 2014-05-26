@@ -1,6 +1,6 @@
 {
     "name": "Labyrinth-Plugin-Guestbook",
-    "version": "1.01",
+    "version": "1.02",
     "abstract": "Guestbook plugin for the Labyrinth framework",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -37,7 +37,8 @@
             "requires" : {
               "perl": "5.006",
               "Data::Pageset": "0",
-              "Labyrinth": "5.20"
+              "Labyrinth": "5.20",
+              "Labyrinth::Plugin::Core": "5.15"
             }
         }
     },
@@ -45,7 +46,7 @@
     "provides": {
         "Labyrinth::Plugin::Guestbook": {
             "file": "lib/Labyrinth/Plugin/Guestbook.pm",
-            "version": "1.01"
+            "version": "1.02"
         }
     },
     "no_index": {

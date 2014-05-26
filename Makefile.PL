@@ -15,12 +15,13 @@ WriteMakefile(
     PREREQ_PM           => {
 
         # prereqs
-        'Data::Pageset'         => '0',
-        'Labyrinth'             => '5.20',
+        'Data::Pageset'             => '0',
+        'Labyrinth'                 => '5.20',
+        'Labyrinth::Plugin::Core'   => '5.15',
 
         # build/test prereqs
-        'IO::File'              => '0',
-        'Test::More'            => '0.70'
+        'IO::File'                  => '0',
+        'Test::More'                => '0.70'
 
     }
 );
