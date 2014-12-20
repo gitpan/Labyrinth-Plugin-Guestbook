@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                     Labyrinth-Plugin-Guestbook
-version:                  1.02
+version:                  1.03
 abstract:                 Guestbook plugin for the Labyrinth framework
 author:
   - Barbie <barbie@cpan.org>
@@ -26,7 +26,7 @@ build_requires:
 provides:
   Labyrinth::Plugin::Guestbook:
     file:     lib/Labyrinth/Plugin/Guestbook.pm
-    version:  1.02
+    version:  1.03
 
 no_index:
   directory:
@@ -35,6 +35,7 @@ no_index:
     - vhost
 
 resources:
+  homepage:   http://labyrinth.missbarbell.co.uk
   license:    http://www.perlfoundation.org/artistic_license_2_0
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Labyrinth-Plugin-Guestbook
   repository: http://github.com/barbie/labyrinth-plugin-guestbook
@@ -42,4 +43,4 @@ resources:
 meta-spec:
    version:   1.4
    url:       http://module-build.sourceforge.net/META-spec-v1.4.html
-generated_by: Hand 1.0
+generated_by: The Hand of Barbie 1.0

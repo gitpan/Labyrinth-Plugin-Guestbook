@@ -8,7 +8,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     AUTHOR              => 'Barbie <barbie@cpan.org>',
-    NAME                => 'Labyrinth-Plugin-Guestbook',
+    NAME                => 'Labyrinth::Plugin::Guestbook',
     VERSION_FROM        => 'lib/Labyrinth/Plugin/Guestbook.pm',
     ABSTRACT            => 'Guestbook plugin for the Labyrinth framework',
     NO_META             => 1,
